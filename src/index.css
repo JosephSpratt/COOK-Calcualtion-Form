@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  display: grid;
+  flex-direction: row;
+  border: 2px solid black;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  background: linear-gradient(
+      90deg,
+      rgba(255, 225, 132, 0.7) 50%,
+      rgba(255, 255, 255, 0) 50%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(32, 113, 120, 0.3) 50%,
+      rgba(255, 255, 255, 0) 50%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 150, 102, 0.3) 50%,
+      rgba(255, 255, 255, 0) 50%
+    ),
+    linear-gradient(
+      90deg,
+      rgba(23, 76, 79, 0.1) 50%,
+      rgba(255, 255, 255, 0) 50%
+    );
+  background-size: 7em 7em, 5em 5em, 3em 3em, 1em 1em;
+  background-color: #f5e9be;
+}
+
+.calcForm {
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  background-color: rgba(255, 225, 132, 0.75);
+  font-size: 1rem;
+}
+
+.calcForm label {
+  margin-right: 10px;
+  margin-left: 7px;
+}
+
+.results {
+  align-items: center;
+  background-color: rgba(255, 225, 132, 0.75);
+}
+
+.resultBox {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-top: 7px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.buttons button {
+  margin: 0 3px 0 3px;
+}
